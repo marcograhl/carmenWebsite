@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-    color: #dd3300;
-}
 
-a:hover {
-    text-decoration: underline;
+a{
+    font-size: 2rem;
+    @media(--above_med){
+        font-size: 5rem;
+    }
 }
