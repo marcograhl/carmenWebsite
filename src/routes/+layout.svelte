@@ -2,7 +2,7 @@
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import Footer from './Footer.svelte';
 	import Header from './Header.svelte';
-	import './app.css';
+	import '../styles/style.css';
 	import { i } from '@inlang/sdk-js';
 	import { page } from '$app/stores';
 
