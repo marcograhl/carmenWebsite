@@ -1,0 +1,62 @@
+{
+  "title": "Colors",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
+  "items": [
+    {
+      "name": "Dark",
+      "value": "#151E1A"
+    },
+    {
+      "name": "Light",
+      "value": "#FEFEFE"
+    },
+    {
+      "name": "Light Glare",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "Nebula-50",
+      "value": "#F5F8F6"
+    },
+    {
+      "name": "Nebula-100",
+      "value": "#e9efec"
+    },
+    {
+      "name": "Nebula-200",
+      "value": "#d6e1db"
+    },
+    {
+      "name": "Nebula-300",
+      "value": "#b0c5ba"
+    },
+    {
+      "name": "Nebula-400",
+      "value": "#85a393"
+    },
+    {
+      "name": "Nebula-500",
+      "value": "#648372"
+    },
+    {
+      "name": "Nebula-600",
+      "value": "#4f6a5c"
+    },
+    {
+      "name": "Nebula-700",
+      "value": "#40554a"
+    },
+    {
+      "name": "Nebula-800",
+      "value": "#36453e"
+    },
+    {
+      "name": "Nebula-900",
+      "value": "#2d3a33"
+    },
+    {
+      "name": "Nebula-950",
+      "value": "#151e1a"
+    }
+  ]
+}
