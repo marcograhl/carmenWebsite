@@ -3,9 +3,3 @@
 @tailwind utilities;
 
 
-a{
-    font-size: 2rem;
-    @media(--above_med){
-        font-size: 5rem;
-    }
-}

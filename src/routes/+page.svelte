@@ -12,13 +12,18 @@
 
 	<a href="www.google.com">link</a>
 
+<div class="parent">
+
+		<div class="child">
+
+			<div class="child-2">
+
+			</div>
+		</div>
+</div>
+
 
 <style lang="postcss">
+
 	
-a{
-    font-size: 2rem;
-    @media(--above_med){
-        font-size: 5rem;
-    }
-}
 </style>
