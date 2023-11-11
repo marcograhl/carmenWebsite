@@ -16,7 +16,8 @@
 
 		<div class="child">
 
-			<div class="child-2">
+			<div class="child-2 font-base">
+			 test
 
 			</div>
 		</div>
