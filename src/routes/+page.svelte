@@ -4,7 +4,7 @@
 
 <a
 	href="/todo"
-	class="bg-slate-700 hover:bg-slate-900 text-slate-50 h-10 flex justify-center items-center rounded-lg mt-10"
+	class=""
 >
 	{i('pages.home.goToTodoApp')}
 
@@ -14,10 +14,14 @@
 
 <div class="parent">
 
-		<div class="child">
+		<div class="child flow">
 
 			<div class="child-2 font-base">
 			 test
+
+			</div>
+			<div class="child-2 font-base">
+			me
 
 			</div>
 		</div>
