@@ -2,7 +2,24 @@
 	import { i } from '@inlang/sdk-js';
 </script>
 
-<header class="flex flex-col gap-2 pt-20">
-	<h1 class="text-xl font-medium text-slate-900">{i('title')}</h1>
-	<h2 class="text-sm text-slate-600">{i('description')}</h2>
+<header class="">
+    <nav class="">
+      <ul role="list" class="cluster">
+        <li>
+          <a href={i('navigation.0.url')}>{i('navigation.0.text')}</a>
+        </li>
+        <li>
+          <a href={i('navigation.1.url')}>{i('navigation.1.text')}</a>
+        </li>
+        <li>
+          <a href={i('navigation.2.url')}>{i('navigation.2.text')}</a>
+        </li>
+        <li>
+          <a href={i('navigation.3.url')}>{@html i('navigation.3.text')}</a>
+        </li>
+        <li>
+          <a href={i('navigation.4.url')}>{i('navigation.4.text')}</a>
+        </li>
+      </ul>
+    </nav>
 </header>
