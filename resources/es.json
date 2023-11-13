@@ -1,16 +1,16 @@
 {
 	"navigation": {
 		"0": {
-			"text": "Startseite",
+			"text": "",
 			"url": "/"
 		},
 		"1": {
-			"text": "Beratungsangebot",
-			"url": "/Beratungsangebot/"
+			"text": "test",
+			"url": "/test"
 		},
 		"2": {
-			"text": "Mein Ansatz",
-			"url": "/Mein-Ansatz/"
+			"text": "test2",
+			"url": "/test2/"
 		},
 		"3": {
 			"text": "Ablauf & Kosten",
@@ -26,3 +26,4 @@
 		}
 	}
 }
+
