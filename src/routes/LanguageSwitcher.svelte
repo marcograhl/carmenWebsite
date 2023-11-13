@@ -7,7 +7,7 @@
 	} from '@inlang/sdk-js';
 </script>
 
-<div class="relative bg-white w-fit border border-slate-300 rounded-xl py-1 px-[6px]">
+<div class="">
 	{#each languages as language}
 		<button
 			on:focus={() => loadResource(language)}

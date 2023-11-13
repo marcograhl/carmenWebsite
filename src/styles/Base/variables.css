@@ -1,2 +1,5 @@
 :root {
+   --stack: 1em;
+   --line-length: 55ch;
+   --section-spaceing: var(--space-xl) ;
 }
