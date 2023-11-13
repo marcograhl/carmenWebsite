@@ -1,5 +1,6 @@
 <script>
-	import { i } from '@inlang/sdk-js';
+	import { i,languages,switchLanguage } from '@inlang/sdk-js';
+	
 </script>
 
 <header class="">
@@ -22,4 +23,8 @@
         </li>
       </ul>
     </nav>
+		{#each languages as lang}
+		<button on:click={()=>switchLanguage(lang)}>{lang}</button>
+		{/each}
+
 </header>
