@@ -1,28 +1,28 @@
 {
-	"navigation": {
-		"0": {
-			"text": "Startseite",
-			"url": "/"
-		},
-		"1": {
-			"text": "Beratungsangebot",
-			"url": "/Beratungsangebot/"
-		},
-		"2": {
-			"text": "Mein Ansatz",
-			"url": "/Mein-Ansatz/"
-		},
-		"3": {
-			"text": "Ablauf & Kosten",
-			"url": "/Ablauf-&-Kosten/"
-		},
-		"4": {
-			"text": "Kontakt",
-			"url": "/Kontakt/"
-		},
-		"5": {
-			"text": "Impressum & Datenschutz",
-			"url": "/Impressum&Datenschutz/"
-		}
-	}
+  "navigation": {
+    "0": {
+      "text": "Startseite",
+      "url": "/"
+    },
+    "1": {
+      "text": "Beratungsangebot",
+      "url": "/Beratungsangebot/"
+    },
+    "2": {
+      "text": "Mein Ansatz",
+      "url": "/Mein-Ansatz/"
+    },
+    "3": {
+      "text": "Ablauf & Kosten",
+      "url": "/Ablauf-&-Kosten/"
+    },
+    "4": {
+      "text": "Kontakt",
+      "url": "/Kontakt/"
+    },
+    "5": {
+      "text": "Impressum & Datenschutz",
+      "url": "/Impressum&Datenschutz/"
+    }
+  }
 }
