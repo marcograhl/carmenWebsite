@@ -1,7 +1,7 @@
-@import 'tailwindcss/base';
-@import '$styles/Base/fonts.css';
+@import-glob './Base/*.css';
+@import-glob './Compositions/*.css';
+@import-glob './Utilities/*.css';
 
-@import 'tailwindcss/components';
 
-@import 'tailwindcss/utilities';
+
 
