@@ -20,7 +20,7 @@ import { i,languages,switchLanguage } from '@inlang/sdk-js';
             <a href={i('navigation.2.url')}>{i('navigation.2.text')}</a>
           </li>
           <li>
-            <a href={i('navigation.3.url')}>{@html i('navigation.3.text')}</a>
+            <a href={i('navigation.3.url')}>{i('navigation.3.text')}</a>
           </li>
           <li>
             <a href={i('navigation.4.url')}>{i('navigation.4.text')}</a>
