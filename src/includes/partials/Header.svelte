@@ -40,7 +40,6 @@ import { i,languages,switchLanguage } from '@inlang/sdk-js';
 <style lang="postcss">
   .nav-wrapper{
      padding: 0 var(--border-radius);
-
   }
 
 

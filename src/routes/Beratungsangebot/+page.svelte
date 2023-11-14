@@ -22,10 +22,9 @@
       </p>
       <p></p>
     </div>
-
-
   </div>
 </HeroWrapper>
+
 <div class="region center-xy">
   <div class="wrapper offset">
     <img src={beratungImg} alt="" width="960" height="640">
@@ -57,10 +56,6 @@
     }
   }
 
-  img{
-   border-radius: clamp(8px,6vw,10px);
-
-  }
 </style>
 
 
