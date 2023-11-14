@@ -10,6 +10,15 @@
     },
     "quote": "Wenn wir eine Verbindung mit den Gründen für unsere Ängste & Symptomen herstellen, öffnen wir uns einer möglichen Lösung"
   },
+	"beratungsangebot": {
+		"title": "Beratungsangebot",
+		"liste": {
+			"0": "Einzel- und Paartherapie",
+			"1": "Familientherapie",
+			"2": "Psychologische Therapie und Coaching"
+		},
+		"behandlungsangebot": "<strong>Behandlungsangebot: <br/></strong>Depression, Burnout, Angststörung, Selbstwertprobleme, Persönlichkeitsstörung, Lebenskrise, Psychosomatische Beschwerden, Interkulturelle Therapie (duelo Migratorio)."
+	},
   "navigation": {
     "0": {
       "text": "Startseite",

@@ -1,5 +1,5 @@
 <section class="hero wrapper pb-2xl-5xl">
-  <div class="hero-inner flow bg-nebula-50">
+  <div class="hero-inner flow">
     <slot/>
   </div>
 </section>
@@ -13,6 +13,7 @@
   }
 
   .hero-inner{
+    background-color: var(--green);
     min-height: 23.25rem;
     border-radius: none;
     width: 100vw;
