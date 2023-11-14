@@ -15,8 +15,9 @@ const config = {
 		alias: {
 			$assets: 'src/assets',
 			$utilities: 'src/utilities',
-			$partials: 'src/_includes/partials',
-			$blocks: 'src/_includes/blocks',
+			$partials: 'src/includes/partials',
+			$atoms: 'src/includes/atoms',
+			$blocks: 'src/includes/blocks',
 			$fonts: 'src/fonts',
 			$styles: 'src/styles'
 		}
