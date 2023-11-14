@@ -13,6 +13,7 @@ p{
 
 
   body{
+    font-family: var(--font-base);
     font-size: var(--size-step-0);
     color: var(--color-nebula-950);
     overflow-x: hidden;
@@ -39,6 +40,7 @@ p{
   }
 :is(h1, h2, h3, blockquote) {
   --flow-space: 1.5em;
+  font-family: var(--font-serif);
 }
 
 :is(h1) + * {
