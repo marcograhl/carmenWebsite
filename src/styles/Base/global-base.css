@@ -16,7 +16,7 @@ p{
     font-size: var(--size-step-0);
     color: var(--color-nebula-950);
     overflow-x: hidden;
-    background: var(--color-nebula-50);
+    background: var(--color-light-glare);
 }
 
 

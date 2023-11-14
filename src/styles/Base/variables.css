@@ -2,6 +2,7 @@
   --content-max-width:  77.5rem;
   --wrapper-padding: var(--space-s-m);
 
+  --green: oklch(97.63% 0.004 157.18);
   --border-radius: clamp(8px, 3vw, 20px);
 
 }
