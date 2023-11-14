@@ -15,7 +15,6 @@
   /* Remove default padding on everything */
   padding: 0;
   /* Calc `em` based line height, bigger line height for smaller font size and smaller line height for bigger font size: https://kittygiraudel.com/2020/05/18/using-calc-to-figure-out-optimal-line-height/ */
-  line-height: calc(0.25rem + 1em + 0.25rem);
 }
 
 /* Use a more-intuitive box-sizing model on everything */
@@ -113,7 +112,7 @@ body {
 }
 
 /* Fix h1 font size inside article, aside, nav, and section */
-h1 {
+:where(h1) {
   font-size: 2em;
 }
 

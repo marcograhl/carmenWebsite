@@ -1,6 +1,11 @@
 {
   "Startseite": {
-    "heading": "Hi, mein Name ist <span class='indent-line'> Carmen Alvarez und ich </span> bin Diplom-Psychologin.",
+    "title": {
+      "0":"Hi, mein Name ist",
+      "1":"Carmen Alvarez und ich",
+      "2":"bin Diplom-Psychologin."
+
+    },
     "subheading": "Willkommen auf meiner meiner Internetpräsenz. Auf dieser Webseite finden Sie mehr Informationen über mich und meine Arbeit.",
     "card": {
       "0": "Öffnungszeiten:",
