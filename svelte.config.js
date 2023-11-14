@@ -16,7 +16,7 @@ const config = {
 			$assets: 'src/assets',
 			$utilities: 'src/utilities',
 			$partials: 'src/includes/partials',
-			$atoms: 'src/includes/atoms',
+			$atoms: 'src/includes/components',
 			$blocks: 'src/includes/blocks',
 			$fonts: 'src/fonts',
 			$styles: 'src/styles'
