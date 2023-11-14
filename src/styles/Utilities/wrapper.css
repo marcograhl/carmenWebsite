@@ -1,0 +1,6 @@
+.wrapper {
+  max-width: calc(var(--content-max-width) + 2 * var(--wrapper-padding));
+  margin-inline: auto;
+  padding-inline:  var(--wrapper-padding);
+  position: relative;
+}
