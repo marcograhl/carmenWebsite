@@ -2,4 +2,6 @@
   --content-max-width:  77.5rem;
   --wrapper-padding: var(--space-s-m);
 
+  --border-radius: clamp(8px, 3vw, 20px);
+
 }
