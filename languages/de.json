@@ -1,39 +1,39 @@
 {
-	"Startseite": {
-		"heading": "Hi, mein Name ist <span class='indent-line'> Carmen Alvarez und ich </span> bin Diplom-Psychologin.",
-		"subheading": "Willkommen auf meiner meiner Internetpräsenz. Auf dieser Webseite finden Sie mehr Informationen über mich und meine Arbeit.",
-		"card": {
-			"0": "Öffnungszeiten:",
-			"1": "<strong>Mo,&thinsp;Mi:&ensp; 9:00&thinsp;&ndash;&thinsp;18:00 Uhr</strong>",
-			"2": "Praxis:",
-			"3": "Öffnungszeiten:"
-		},
-		"quote": "Wenn wir eine Verbindung mit den Gründen für unsere Ängste & Symptomen herstellen, öffnen wir uns einer möglichen Lösung"
-	},
-	"navigation": {
-		"0": {
-			"text": "Startseite",
-			"url": "/"
-		},
-		"1": {
-			"text": "Beratungsangebot",
-			"url": "/Beratungsangebot/"
-		},
-		"2": {
-			"text": "Mein Ansatz",
-			"url": "/Mein-Ansatz/"
-		},
-		"3": {
-			"text": "Ablauf & Kosten",
-			"url": "/Ablauf-&-Kosten/"
-		},
-		"4": {
-			"text": "Kontakt",
-			"url": "/Kontakt/"
-		},
-		"5": {
-			"text": "Impressum & Datenschutz",
-			"url": "/Impressum&Datenschutz/"
-		}
-	}
+  "Startseite": {
+    "heading": "Hi, mein Name ist <span class='indent-line'> Carmen Alvarez und ich </span> bin Diplom-Psychologin.",
+    "subheading": "Willkommen auf meiner meiner Internetpräsenz. Auf dieser Webseite finden Sie mehr Informationen über mich und meine Arbeit.",
+    "card": {
+      "0": "Öffnungszeiten:",
+      "1": "<strong>Mo,&thinsp;Mi:&ensp; 9:00&thinsp;&ndash;&thinsp;18:00 Uhr</strong>",
+      "2": "Praxis:",
+      "3": "Öffnungszeiten:"
+    },
+    "quote": "Wenn wir eine Verbindung mit den Gründen für unsere Ängste & Symptomen herstellen, öffnen wir uns einer möglichen Lösung"
+  },
+  "navigation": {
+    "0": {
+      "text": "Startseite",
+      "url": "/"
+    },
+    "1": {
+      "text": "Beratungsangebot",
+      "url": "/Beratungsangebot/"
+    },
+    "2": {
+      "text": "Mein Ansatz",
+      "url": "/Mein-Ansatz/"
+    },
+    "3": {
+      "text": "Ablauf & Kosten",
+      "url": "/Ablauf-&-Kosten/"
+    },
+    "4": {
+      "text": "Kontakt",
+      "url": "/Kontakt/"
+    },
+    "5": {
+      "text": "Impressum & Datenschutz",
+      "url": "/Impressum&Datenschutz/"
+    }
+  }
 }

@@ -1,5 +1,5 @@
 <section class="hero wrapper pb-2xl-5xl">
-  <div class="hero-inner flow bg-light-glare">
+  <div class="hero-inner flow bg-nebula-50">
     <slot/>
   </div>
 </section>
