@@ -2,9 +2,8 @@
 	import { i } from '@inlang/sdk-js';
 	import HeroWrapper from '$blocks/HeroWrapper.svelte';
 	import HeroImg from '$assets/heroimg.png';
-	import PraxisSection from '$blocks/Praxis.svelte';
+	import PraxisSection from '$blocks/Businesscard.svelte'
 	import QuoteSection from '$blocks/Quote.svelte';
-	import Title from '$components/title.svelte';
 </script>
 
 <HeroWrapper>
@@ -27,10 +26,15 @@
 	</div>
 </HeroWrapper>
 
-<!-- <PraxisSection /> -->
-<!-- <QuoteSection /> -->
+<article class="px-s">
+	<PraxisSection/>
+	<QuoteSection/>
+</article>
 
 <style lang="postcss">
+	.business{
+		 --gutter: var(--space-s);
+	}
 	
 	.heading-wrapper{
 	  display: grid;

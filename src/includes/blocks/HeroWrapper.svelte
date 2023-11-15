@@ -1,4 +1,4 @@
-<section class="hero wrapper pb-2xl-5xl">
+<section class="hero wrapper pb-l-xl">
   <div class="hero-inner">
     <slot/>
   </div>
@@ -26,7 +26,7 @@
     padding: var(--space-l-xl) var(--space-m-3xl);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-2);
-    border: 1px solid var(--color-nebula-200);
+    border: 1px solid var(--border-color);
     margin-inline: auto;
     width: 100%;
     transform: initial;

@@ -41,13 +41,14 @@
     clear: both;
     float: var(--float, right);
     margin-inline-start: var(--photo-margin);
-    margin-block: 3.5ex  var(--photo-margin);
+    margin-block: 2.75ex  var(--photo-margin);
   }
 
   }
 
 	img{
-	 width:	98.25%;
+		width:	98.25%;
+		border-radius: calc(var(--border-radius)/2);
 	}
 </style>
 

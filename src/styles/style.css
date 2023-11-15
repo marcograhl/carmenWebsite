@@ -1,4 +1,5 @@
 @import-glob './Base/*.css';
+@import-glob './Blocks/*.css';
 @import-glob './Compositions/*.css';
 @import-glob './Utilities/*.css';
 

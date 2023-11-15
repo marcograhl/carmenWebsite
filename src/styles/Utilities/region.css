@@ -1,0 +1,7 @@
+.region {
+  padding-block: var(--region-space,var(--space-l-xl) );
+}
+
+.region[data-space="double"]{
+  padding-block: calc( 2 * ( var(--region-space,var(--space-l-xl))));
+}

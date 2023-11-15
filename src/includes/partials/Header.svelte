@@ -58,10 +58,6 @@ import { i,languages,switchLanguage } from '@inlang/sdk-js';
    --repel-vertical-alignment: baseline;
    --cluster-vertical-alignment: baseline;
 
-    @media(--below_large){
-    --content-max-width: 55rem;
-
-    }
   }
 
 

@@ -7,7 +7,7 @@
 <style lang="postcss">
   .title{
   position: relative;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.5em;
   @media(--above_small){
     &::before{
     content: "";

@@ -4,6 +4,7 @@
 
   --green: oklch(97.63% 0.004 157.18);
   --border-radius: clamp(8px, 3vw, 20px);
+  --border-color: var(--color-nebula-200);
 
   --tracking: -0.05ch;
   --tracking-s: -0.075ch;
