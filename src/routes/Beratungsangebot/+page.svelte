@@ -2,23 +2,28 @@
   import HeroWrapper from "$blocks/HeroWrapper.svelte";
   import {i} from '@inlang/sdk-js';
   import beratungImg from '$assets/beratung-img.jpg'
+	import Title from '$components/title.svelte';
 </script>
 
 
 <HeroWrapper>
-  <h1 class="title">
-    {i('beratungsangebot.title')}
-  </h1>
-  <div class="mt-m-l content grid text-step-1" data-layout="50-50">
+
+	<Title>
+		{i('beratungsangebot.title')}
+	</Title>
+  <div class="[ grid ] [ adjust ]" data-layout="50-50">
     <ul class="flow" role="presentation">
       <li role="presentation">{i("beratungsangebot.liste.0")}</li>
       <li role="presentation">{i("beratungsangebot.liste.1")}</li>
       <li role="presentation">{i("beratungsangebot.liste.2")}</li>
     </ul>
 
-    <div class="flow">
+    <div>
       <p>
-        {@html i("beratungsangebot.behandlungsangebot")}
+				<strong>
+        {i("beratungsangebot.behandlungsangebot.0")}
+				</strong><br/>
+        {i("beratungsangebot.behandlungsangebot.1")}
       </p>
       <p></p>
     </div>

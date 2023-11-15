@@ -1,19 +1,20 @@
 <script>
   import HeroWrapper from "$blocks/HeroWrapper.svelte";
   import {i} from '@inlang/sdk-js';
+  import Title from "$components/title.svelte";
 </script>
 
 
 
 <HeroWrapper>
-  <h1 class="title">
+  <Title>
     {i('Ablauf.title')}
-  </h1>
-  <article class="">
-    <p>{@html i('Ablauf.p_1')}</p>
-    <div class="">
+  </Title>
+  <article class="flow">
+    <p>{i('Ablauf.p_1')}</p>
+    <div class="indent">
       <div></div>
-      <q class="">{i('Ablauf.q_1')}</q>
+      <q>{i('Ablauf.q_1')}</q>
     </div>
     <h2>{i('Ablauf.h2_1')} </h2>
     <p>{i('Ablauf.p_2')}</p>
@@ -26,6 +27,13 @@
 
 
 <style lang="postcss">
+  q{
+    display: block;
+    max-width: 40ch;
+    quotes: none;
+    font-family: var(--font-serif-text);
+    font-style: italic;
+  }
    
 
 </style>

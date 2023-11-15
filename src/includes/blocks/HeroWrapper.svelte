@@ -1,5 +1,5 @@
 <section class="hero wrapper pb-2xl-5xl">
-  <div class="hero-inner flow">
+  <div class="hero-inner">
     <slot/>
   </div>
 </section>

@@ -1,0 +1,3 @@
+.w-text{
+  max-width: var(--line-length, 60ch);
+}

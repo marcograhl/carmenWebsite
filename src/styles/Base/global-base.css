@@ -15,6 +15,11 @@ p{
   max-width: 52ch;
 }
 
+article{
+  font-size: var(--size-step-1)
+
+}
+
 
 body{
   font-family: var(--font-base);
@@ -49,9 +54,7 @@ body{
   /* line-height: 1.1; */
 }
 
-:is(h1) + * {
-  --flow-space: 1.25em;
-}
+
 
 :is(h2,h3) + * {
   --flow-space: 0.75em;
@@ -78,7 +81,8 @@ strong{
   font-weight: 600;
 }
 
-.content{
+/* Content aligns better to the stem of the title serif font */
+.adjust{
   margin-left: 2px;
 }
 
@@ -86,8 +90,6 @@ strong{
   max-width: 52ch ;
 
 }
-
-
 
 .indent{
     display: flex;

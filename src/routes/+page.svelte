@@ -4,6 +4,7 @@
 	import HeroImg from '$assets/heroimg.png';
 	import PraxisSection from '$blocks/Praxis.svelte';
 	import QuoteSection from '$blocks/Quote.svelte';
+	import Title from '$components/title.svelte';
 </script>
 
 <HeroWrapper>
@@ -44,15 +45,16 @@
     max-width: 28ch;
 		}
 	}
+	.sidebar {
+		--sidebar-vertical-alignment: flex-start;
+		--sidebar-target-width: 32.5rem;
+		--sidebar-content-min-width: 25%;
+		--gutter: var(--space-m-3xl);
+	}
 
 	img{
     width: clamp(14.5rem, 13.5rem + 12vw, 20.15rem);
 	}
-
-
-
-	
-
 	 
 	.indent-line {
 		@media (--above_large) {
@@ -60,12 +62,7 @@
 		}
 	}
 
-	.sidebar {
-		--sidebar-vertical-alignment: flex-start;
-		--sidebar-target-width: 32.5rem;
-		--sidebar-content-min-width: 25%;
-		--gutter: var(--space-m-3xl);
-	}
+
 
 	p {
     max-width: 55ch;
@@ -75,7 +72,7 @@
   }
 	}
 
-	:global(.indent-line) {
+	.indent-line {
 		@media (--above_large) {
 			text-indent: 1.5ch;
 		}
