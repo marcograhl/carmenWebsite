@@ -46,6 +46,7 @@ import { i,languages,switchLanguage } from '@inlang/sdk-js';
 
   nav{
     display: flex;
+    flex-direction: column;
     align-items: baseline;
     flex-wrap: wrap;
     row-gap: var(--space-s);

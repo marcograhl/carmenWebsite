@@ -9,7 +9,7 @@
 <HeroWrapper>
 	<div class="sidebar">
 		<div class="left center-xy">
-			<div class="heading-wrapper flow">
+			<div class="heading-wrapper">
 				<h1 class="heading">
 					{i('Startseite.title.0')}
 					<span class="indent-line">
@@ -32,8 +32,9 @@
 <style lang="postcss">
 	
 	.heading-wrapper{
+	  display: grid;
+	  gap: 1em;
 		margin-bottom: 1.5ex;
-
 	}
 
 	.heading{
