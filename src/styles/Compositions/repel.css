@@ -7,6 +7,6 @@
   row-gap: var(--gutter, var(--space-m-l));
 }
 
-.repel[data-nowrap] {
+.repel[data-nowrap]{
   flex-wrap: nowrap;
 }

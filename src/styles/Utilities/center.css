@@ -1,0 +1,6 @@
+.center-xy {
+  display: grid;
+  place-items: center;
+  gap: var(--gutter, var(--space-m))
+
+}

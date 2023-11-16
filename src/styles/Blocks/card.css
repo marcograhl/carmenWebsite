@@ -1,0 +1,34 @@
+  .card{
+    border-radius: clamp(10px,8px + 2vw,30px);
+    background-color: var(--green);
+    letter-spacing: 0.015em;
+    border: 1px solid var(--color-nebula-200);
+    box-shadow: var(--shadow-2);
+  }
+
+
+  .card.business{
+    overflow: hidden;
+    width: 100%;
+    @media (--above_small) {
+      display: grid;
+      align-content: center;
+      grid-template-columns: max-content 1fr;
+      column-gap: 0;
+      column-gap: var(--space-s-l);
+    }
+  }
+
+  .card-row:first-child{
+    padding-block: var(--space-xs-s);
+  }
+
+   .card-row{
+    padding-inline: var(--space-s-l);
+  }
+
+  .card.business > * + * {
+    border-top: 1px solid var(--color-nebula-200);
+    padding-block: var(--space-s-m);
+  }
+

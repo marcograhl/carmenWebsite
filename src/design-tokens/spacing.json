@@ -99,6 +99,16 @@
       "name": "M - 3XL",
       "min": 24,
       "max": 90
+    },
+    {
+      "name": "s-2xl",
+      "min": 16,
+      "max": 72
+    },
+      {
+      "name": "2xs-xs",
+      "min": 8,
+      "max": 15
     }
 
 
