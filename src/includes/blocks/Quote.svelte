@@ -18,7 +18,7 @@
 <style lang="postcss">
 
   .quote{
-   width: 2.75ex;
+   width: 2.5ex;
   }
   
   blockquote p{

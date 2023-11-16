@@ -35,7 +35,7 @@
 				</div>
 				<div>
 					<strong>E&#8211;Mail:</strong><br />
-					<a href="mailto:alvarez.carmenglo@gmail.com">alvarez.carmenglo@gmail.com↗</a>
+					<a href="mailto:alvarez.carmenglo@gmail.com">alvarez.carmenglo@gmail.com</a>
 				</div>
 			</address>
 		</div>

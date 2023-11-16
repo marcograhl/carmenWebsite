@@ -2,6 +2,10 @@ html{
   line-height: var(--lh);
 }
 
+.gray-light{
+  color: var(--gray-light);
+
+}
 
 
 html[lang="de"]{
@@ -18,7 +22,13 @@ p{
 article{
   font-size: var(--size-step-1)
 }
-
+.underline{
+    text-decoration: underline;
+    text-decoration-thickness: var(--border-width);
+    text-decoration-color: inherit;
+    text-underline-offset: calc(var(--border-width) * 2);
+    color: inherit;
+}  
 
 body{
   font-family: var(--font-base);

@@ -17,7 +17,7 @@
 					</span>
 					{i('Startseite.title.2')}
 				</h1>
-				<p>{i('Startseite.subheading')}</p>
+				<p>{@html i('Startseite.subheading')}</p>
 			</div>
 		</div>
 		<div class="right">
@@ -32,10 +32,6 @@
 </article>
 
 <style lang="postcss">
-	.business{
-		 --gutter: var(--space-s);
-	}
-	
 	.heading-wrapper{
 	  display: grid;
 	  gap: 1em;
