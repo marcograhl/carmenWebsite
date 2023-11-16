@@ -29,15 +29,13 @@
   "meinAnsatz": {
     "title": "Mein Ansatz",
     "p_1": "Ich begleite Menschen in einer Phase ihres Lebens, in der sie sich entscheiden, etwas in ihrem Leben verändern zu wollen und psychologische Unterstützung suchen.",
-    "p_2": "Psychologische Beratung kann helfen, wenn man mit der aktuellen Situation unzufrieden ist, sich belastet fühlt oder nicht weiß, wie es weiter gehen soll.",
-    "p_3": "Die Beratung bietet Entlastung und Unterstützung in Krisensituationen und in Belastungssituationen: Privater, familiärer oder beruflicher Art.",
+    "p_2": "<strong>Psychologische Beratung kann helfen</strong>, wenn man mit der aktuellen Situation unzufrieden ist, sich belastet fühlt oder nicht weiß, wie es weiter gehen soll.",
+    "p_3": "<strong>Die Beratung bietet Entlastung und Unterstützung </strong> in Krisensituationen und in Belastungssituationen: Privater, familiärer oder beruflicher Art.",
     "img_alt": "carmen mit notizblock, sitzend",
-    "p_4": "Therapie ist eine Möglichkeit, schwierige Lebensphasen und Situationen mithilfe von fachkundiger Unterstützung zu bewältigen. Ich arbeite mit einem breiten Fach- und Erfahrungswissen.",
+    "p_4": "<strong>Therapie ist eine Möglichkeit</strong>, schwierige Lebensphasen und Situationen mithilfe von fachkundiger Unterstützung zu bewältigen. Ich arbeite mit einem breiten Fach- und Erfahrungswissen.",
     "p_5": "Mein Beratungskonzept ist von einem humanistischen Menschenbild geprägt. In meiner Arbeit integriere ich systemische Ansätze, zusätzlich arbeite ich mit emotionsfokussierten und achtsamkeitsbasierten Verfahren sowie schema therapeutischen Methoden.",
     "p_6": "Durch das therapeutische Gespräch werden Dialoge über Probleme, Erzählungen eröffnet und neue Ideen ins Spiel gebracht. Die Zusammenarbeit und die Behandlung ist Ressourcen-, Ziel- und Lösungsorientiert.",
-    "p_7": "Gemeinsam werden wir die persönlichen Ressourcen ausfindig machen und lernen sie zu nutzen. Erfahre hier mehr über ",
-    "link": "/Beratungsangebot",
-    "text": "mein Beratungsangebot."
+    "p_7": "Gemeinsam werden wir die persönlichen Ressourcen ausfindig machen und lernen sie zu nutzen. Erfahre hier mehr über <a href='/Beratungsangebot'>mein Beratungsangebot</a> "
   },
   "Ablauf": {
     "title": "Ablauf & Kosten",
@@ -55,6 +53,9 @@
     "p_2": "Die psychologische Therapie und Beratung findet in der Neurologischen Privatpraxis von Dr.&thinsp;med.&thinsp;Univ.&thinsp;Afshin Jawari statt.",
     "p_3": "<strong>Öffnungszeiten:</strong><br/>Mo,&thinsp;Mi:&ensp; 9:00&thinsp;&ndash;&thinsp;18:00 Uhr",
     "p_4": "<strong>Carmen Alvarez</strong><br/>Psychologische Privatpraxis im Bayerischen Viertel</br>Bozener Str. 17, 10825 Berlin</br><strong><a target='_blank' rel='noreferrer' href='https://www.google.com/maps/place/Psychologische+Privatpraxis+im+Bayerischen+Viertel+Carmen+Alvarez/@52.4869995,13.3383774,15z/data=!4m6!3m5!1s0x47a851faa4a2d3a3:0xba7343ea7b73ad4d!8m2!3d52.4869995!4d13.3383774!16s%2Fg%2F11sjgtq6tx?entry=ttu'>Google Maps</a></strong>"
+  },
+  "Footer": {
+    "adresse": "Adresse:"
   },
   "navigation": {
     "0": {

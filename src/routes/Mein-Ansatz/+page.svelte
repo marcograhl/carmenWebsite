@@ -12,18 +12,16 @@
 	</Title>
   <article class="[ adjust flow w-text ]">
     <p>{i('meinAnsatz.p_1')}</p>
-    <p>{i('meinAnsatz.p_2')}</p>
-    <p>{i('meinAnsatz.p_3')}</p>
+    <p>{@html i('meinAnsatz.p_2')}</p>
+    <p>{@html i('meinAnsatz.p_3')}</p>
     <div class="img-wrapper">
       <img class="" src={ansatzImg} alt={i('meinAnsatz.img_alt')} title="Carmen Alvarez" width="200" height="300">
     </div>
-    <p>{i('meinAnsatz.p_4')}</p>
+    <p>{@html i('meinAnsatz.p_4')}</p>
     <p>{i('meinAnsatz.p_5')}</p>
     <p>{i('meinAnsatz.p_6')}</p>
-    <p>{i('meinAnsatz.p_7')}</p>
 		<p>
-			{i('meinAnsatz.p_8')}
-			<a href={i('meinAnsatz.link')}>{i('meinAnsatz.text')}</a>
+			{@html i('meinAnsatz.p_7')}
 		</p>
     <p></p>
   </article>

@@ -8,7 +8,7 @@
     <div class="card-row">
       <img class="self-center card-plant" src={imgCardPlant} alt="deco" width="53" height="104">
       <p class="inline-block self-center">
-        <span class="block card-row_title">{@html i('Startseite.card.0')}</span>
+        <span class="block card-row_title">{ i('Startseite.card.0')}</span>
         <span class="text-step-1">{@html i('Startseite.card.1')}</span>
       </p>
     </div>

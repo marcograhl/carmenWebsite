@@ -30,7 +30,7 @@
 			</div>
 			<address class="flow">
 				<div>
-					<strong>Adresse:</strong><br />
+					<strong>{i('Footer.adresse')}</strong><br />
 					Bozener Str. 17, 10825 Berlin
 				</div>
 				<div>
@@ -52,14 +52,14 @@
 						<a href={i('navigation.2.url')}>{i('navigation.2.text')}</a>
 					</li>
 					<li>
-						<a href={i('navigation.3.url')}>{@html i('navigation.3.text')}</a>
+						<a href={i('navigation.3.url')}>{i('navigation.3.text')}</a>
 					</li>
 					<li>
 						<a href={i('navigation.4.url')}>{i('navigation.4.text')}</a>
 					</li>
 
 					<li>
-						<a href={i('navigation.5.url')}>{@html i('navigation.5.text')}</a>
+						<a href={i('navigation.5.url')}>{i('navigation.5.text')}</a>
 					</li>
 				</ul>
 			</nav>
