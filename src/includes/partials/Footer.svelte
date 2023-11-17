@@ -66,7 +66,8 @@
 		</div>
 	</div>
 	<p class="[ copyright ] [ wrapper ] [ pb-s ]">
-		© Psychologische Privatpraxis im Bayerischen Viertel Carmen Alvarez {date.getFullYear()}
+		©{i('Footer.copy')} Bayerischen Viertel Carmen Alvarez
+		{date.getFullYear()} 
 	</p>
 </footer>
 

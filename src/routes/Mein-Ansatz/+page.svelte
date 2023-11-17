@@ -11,18 +11,28 @@
 		{i('meinAnsatz.title')}
 	</Title>
   <article class="[ adjust flow w-text ]">
-    <p>{i('meinAnsatz.p_1')}</p>
-    <p>{@html i('meinAnsatz.p_2')}</p>
-    <p>{@html i('meinAnsatz.p_3')}</p>
+    <p>{i('meinAnsatz.p.0')}</p>
+    <p>
+      {i('meinAnsatz.p.1')}
+      {i('meinAnsatz.p.2')}
+    </p>
     <div class="img-wrapper">
       <img class="" src={ansatzImg} alt={i('meinAnsatz.img_alt')} title="Carmen Alvarez" width="200" height="300">
     </div>
-    <p>{@html i('meinAnsatz.p_4')}</p>
-    <p>{i('meinAnsatz.p_5')}</p>
-    <p>{i('meinAnsatz.p_6')}</p>
-		<p>
-			{@html i('meinAnsatz.p_7')}
-		</p>
+    <p>
+      {i('meinAnsatz.p.3')}
+    </p>
+    <p>{i('meinAnsatz.p.4')}</p>
+    <p>
+      {i('meinAnsatz.p.5')} 
+    </p>
+    <p>
+	{i('meinAnsatz.p.6')}
+      <span class="font-bold">
+	{i('meinAnsatz.p.6b')}
+	<a href='/Beratungsangebot'>mein Beratungsangebot</a>.
+      </span>
+    </p>
     <p></p>
   </article>
 </HeroWrapper>
@@ -39,15 +49,15 @@
     clear: both;
     float: var(--float, right);
     margin-inline-start: var(--photo-margin);
-    margin-block: 2.75ex  var(--photo-margin);
+    margin-block: 3ex  var(--photo-margin);
   }
 
   }
 
-	img{
-		width:	98.25%;
-		border-radius: calc(var(--border-radius)/2);
-	}
+img{
+  width: min(96%, 200px);
+  border-radius: calc(var(--border-radius)/2);
+}
 </style>
 
 
