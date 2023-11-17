@@ -1,5 +1,8 @@
 <script>
 import { i,languages,switchLanguage } from '@inlang/sdk-js';
+import LanguageSwitcher from '$components/LanguageSwitcher.svelte';
+
+export let pathname = "";  
 </script>
 
 <header class="mb-m-l mt-s-l">
@@ -11,27 +14,23 @@ import { i,languages,switchLanguage } from '@inlang/sdk-js';
         </div>
         <ul role="list" class="cluster">
           <li>
-            <a href={i('navigation.0.url')}>{i('navigation.0.text')}</a>
+            <a class={(pathname === i('navigation.0.url') ? 'underline' : 'no-underline')} href={i('navigation.0.url')}>{i('navigation.0.text')}</a>
           </li>
           <li>
-            <a href={i('navigation.1.url')}>{i('navigation.1.text')}</a>
+            <a class={(pathname === i('navigation.1.url') ? 'underline' : 'no-underline')}  href={i('navigation.1.url')}>{i('navigation.1.text')}</a>
           </li>
           <li>
-            <a href={i('navigation.2.url')}>{i('navigation.2.text')}</a>
+            <a class={(pathname === i('navigation.2.url') ? 'underline' : 'no-underline')} href={i('navigation.2.url')}>{i('navigation.2.text')}</a>
           </li>
           <li>
-            <a href={i('navigation.3.url')}>{i('navigation.3.text')}</a>
+            <a  class={(pathname === i('navigation.3.url') ? 'underline' : 'no-underline')} href={i('navigation.3.url')}>{i('navigation.3.text')}</a>
           </li>
           <li>
-            <a href={i('navigation.4.url')}>{i('navigation.4.text')}</a>
+            <a class={(pathname === i('navigation.4.url') ? 'underline' : 'no-underline')} href={i('navigation.4.url')}>{i('navigation.4.text')}</a>
           </li>
         </ul>
       </nav>
-      <div class="flex">
-        {#each languages as lang}
-          <button on:click={()=>switchLanguage(lang)}>{lang}</button>
-        {/each}
-      </div>
+      <LanguageSwitcher />
     </div>
   </div>
 </header>

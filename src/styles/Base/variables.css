@@ -3,11 +3,14 @@
   --wrapper-padding: var(--space-s-m);
 
   --green: oklch(97.63% 0.004 157.18);
+  
+  --gray-light: oklch(67.63% 0.00 157.18);
   --border-radius: clamp(8px, 3vw, 20px);
   --border-color: var(--color-nebula-200);
 
   --tracking: -0.05ch;
   --tracking-s: -0.075ch;
 
+  --border-width: 1.5px;
   --line-length: 52ch; 
 }

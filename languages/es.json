@@ -1,28 +1,92 @@
 {
-  "navigation": {
-    "0": {
-      "text": "startseite",
-      "url": "/"
-    },
-    "1": {
-      "text": "test",
-      "url": "/test"
-    },
-    "2": {
-      "text": "test2",
-      "url": "/test2/"
-    },
-    "3": {
-      "text": "Ablauf & Kosten",
-      "url": "/Ablauf-&-Kosten/"
-    },
-    "4": {
-      "text": "Kontakt",
-      "url": "/Kontakt/"
-    },
-    "5": {
-      "text": "Impressum & Datenschutz",
-      "url": "/Impressum&Datenschutz/"
-    }
-  }
+   "Startseite": {
+      "title": {
+         "0": "Hola, mi nombre es",
+         "1": "Carmen Alvarez y soy",
+         "2": "psicóloga diplomada."
+      },
+      "subheading": "Bienvenido/a a mi sitio web. Aquí encontrarás más información sobre mí y",
+      "arbeit": "mi trabajo",
+      "card": {
+         "0": "Horario de atención:",
+         "1": "Lun, Mié:",
+         "2": "Consultorio:"
+      },
+      "quote": "Cuando conectamos con las razones de nuestros miedos y síntomas, nos abrimos a una posible solución"
+   },
+   "beratungsangebot": {
+      "title": "Oferta de asesoramiento",
+      "liste": {
+         "0": "Terapia individual y de pareja",
+         "1": "Terapia familiar",
+         "2": "Terapia psicológica y coaching"
+      },
+      "behandlungsangebot": {
+         "0": "Oferta de tratamiento:",
+         "1": "Depresión, agotamiento, trastorno de ansiedad, problemas de autoestima, trastorno de personalidad, crisis vital, síntomas psicosomáticos, terapia intercultural (duelo migratorio)."
+      }
+   },
+   "meinAnsatz": {
+      "p": {
+         "0": "Acompaño a las personas en una fase de sus vidas en la que deciden cambiar algo y buscan apoyo psicológico.",
+         "1": "El asesoramiento psicológico puede ayudar cuando uno no está satisfecho con la situación actual, se siente cargado/a o no sabe cómo seguir adelante.",
+         "2": "El asesoramiento ofrece alivio y apoyo en situaciones de crisis y estrés: ya sea de índole personal, familiar o laboral.",
+         "3": "La terapia es una forma de superar etapas y situaciones difíciles con la ayuda de un experto. Trabajo con amplios conocimientos y experiencia.",
+         "4": "Mi enfoque de asesoramiento se basa en una visión humanista de la persona. En mi trabajo, integro enfoques sistémicos y también utilizo métodos centrados en las emociones, basados en la atención plena y terapia esquemática.",
+         "5": "A través de la conversación terapéutica, se abren diálogos sobre problemas y se introducen nuevas ideas. La colaboración y el tratamiento se centran en los recursos, objetivos y soluciones.",
+         "6": "Juntos encontraremos los recursos personales y aprenderemos a utilizarlos. Obtenga más información aquí sobre ",
+         "6b": "Obtenga más información aquí sobre"
+      },
+      "title": "Mi enfoque",
+      "img_alt": "carmen con bloc de notas, sentada"
+   },
+   "Ablauf": {
+      "title": "Proceso y costos",
+      "p_1": "La primera cita es gratuita (30 minutos), donde podemos conocernos, tener una primera impresión de tu problema y evaluar tus necesidades de tratamiento.",
+      "q_1": "La química entre nosotros es fundamental para el éxito del tratamiento.",
+      "h2_1": "Terapia",
+      "p_2": "La duración y frecuencia de las sesiones dependen de tu situación y necesidades. Pueden ser desde unas pocas sesiones hasta un acompañamiento a largo plazo en un proceso de cambio.",
+      "h2_2": "Costos",
+      "p_3": "Solo pagos en efectivo o asegurados privados."
+   },
+   "Kontakt": {
+      "title": "Contacto",
+      "p_1": "Puedes contactarme por correo electrónico. Estoy deseando saber de ti y apoyarte en tu preocupación",
+      "h2_1": "Lugar de práctica",
+      "p_2": "La terapia psicológica y el asesoramiento se llevan a cabo en la clínica privada neurológica del Dr. med. Univ. Afshin Jawaristatt.",
+      "p_3": "Horario de atención:",
+      "p_4": "Carmen Alvarez",
+      "p_41": "Consulta privada de psicología en"
+   },
+   "Footer": {
+      "adresse": "Dirección:",
+      "copy": " Consultorio privado de psicología en"
+   },
+   "uhr": "",
+   "navigation": {
+      "0": {
+         "text": "Inicio",
+         "url": "/"
+      },
+      "1": {
+         "text": "Oferta de asesoramiento",
+         "url": "/Beratungsangebot"
+      },
+      "2": {
+         "text": "Mi enfoque",
+         "url": "/Mein-Ansatz"
+      },
+      "3": {
+         "text": "Proceso y costos",
+         "url": "/Ablauf&Kosten"
+      },
+      "4": {
+         "text": "Contacto",
+         "url": "/Kontakt"
+      },
+      "5": {
+         "text": "Aviso legal y política de privacidad",
+         "url": "/Impressum&Datenschutz"
+      }
+   }
 }

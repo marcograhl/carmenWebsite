@@ -17,7 +17,10 @@
 					</span>
 					{i('Startseite.title.2')}
 				</h1>
-				<p>{i('Startseite.subheading')}</p>
+				<p>
+					{i('Startseite.subheading')}
+					<a href={i('navigation.2.url')}>{i('Startseite.arbeit')}.</a>
+				</p>
 			</div>
 		</div>
 		<div class="right">
@@ -32,10 +35,6 @@
 </article>
 
 <style lang="postcss">
-	.business{
-		 --gutter: var(--space-s);
-	}
-	
 	.heading-wrapper{
 	  display: grid;
 	  gap: 1em;

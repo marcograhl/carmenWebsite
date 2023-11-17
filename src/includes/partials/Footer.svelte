@@ -35,7 +35,7 @@
 				</div>
 				<div>
 					<strong>E&#8211;Mail:</strong><br />
-					<a href="mailto:alvarez.carmenglo@gmail.com">alvarez.carmenglo@gmail.com↗</a>
+					<a href="mailto:alvarez.carmenglo@gmail.com">alvarez.carmenglo@gmail.com</a>
 				</div>
 			</address>
 		</div>
@@ -66,7 +66,8 @@
 		</div>
 	</div>
 	<p class="[ copyright ] [ wrapper ] [ pb-s ]">
-		© Psychologische Privatpraxis im Bayerischen Viertel Carmen Alvarez {date.getFullYear()}
+		©{i('Footer.copy')} Bayerischen Viertel Carmen Alvarez
+		{date.getFullYear()} 
 	</p>
 </footer>
 
